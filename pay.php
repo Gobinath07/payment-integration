@@ -15,7 +15,7 @@ if(isset($_POST['purpose']) && isset($_POST['name']) && isset($_POST['email']) &
             "amount" => $_POST['amount'],
             "send_email" => true,
             "email" => $_POST['email'],
-            "redirect_url" => "http://localhost/InstamojoPHP-master/index.html"
+            "redirect_url" => "https://quirky-thompson-12c655.netlify.app/"
             ));
         header('Location:'. $response['longurl']);
     }
